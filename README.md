@@ -45,6 +45,10 @@ To list all plugins in current installation:
 
 In order to install the latest version of the plugin, simply run:
 
+    sudo bin/elasticsearch-plugin install gr.skroutz:elasticsearch-skroutz-greekstemmer:5.5.2.1
+
+In order to install version 5.4.2 of the plugin, simply run:
+
     sudo bin/elasticsearch-plugin install gr.skroutz:elasticsearch-skroutz-greekstemmer:5.4.2.1
 
 In order to install version 2.4.4 of the plugin, simply run:
@@ -64,6 +68,7 @@ Versions
 
 SkroutzGreekStemmer Plugin | ElasticSearch | Branch
 ---------------------------|---------------|--------|
+5.5.2.1                    | 5.5.2         | 5.5.2  |
 5.4.2.1                    | 5.4.2         | 5.4.2  |
 5.4.0.1                    | 5.4.0         | 5.4.0  |
 2.4.4.1                    | 2.4.4         | 2.4.4  |
